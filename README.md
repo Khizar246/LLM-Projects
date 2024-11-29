@@ -1,6 +1,3 @@
-Here’s a `README.md` file for the project:
-
-```markdown
 # News Research Bot 📈
 
 A powerful Streamlit-based web application that processes news articles, generates embeddings, and answers user queries using a robust pipeline of NLP tools.
@@ -21,7 +18,6 @@ A powerful Streamlit-based web application that processes news articles, generat
 ```bash
 git clone https://github.com/yourusername/news-research-bot.git
 cd news-research-bot
-```
 
 ### 2. Set Up Virtual Environment (Optional)
 Create and activate a virtual environment to isolate dependencies:
