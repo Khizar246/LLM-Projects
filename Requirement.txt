@@ -1,14 +1,7 @@
-streamlit==1.25.0
+streamlit==1.25.0  # Latest version; adjust if incompatible
 newspaper3k==0.2.8
-langchain==0.0.273
-transformers==4.35.0
-torch==2.0.1
-nltk==3.9.0
-faiss-cpu==1.7.4
-beautifulsoup4==4.12.2
-lxml==4.9.3
-Pillow==9.4.0
-cssselect==1.2.0
-PyYAML==6.0
-requests==2.31.0
-feedparser==6.0.10
+langchain==0.0.273  # Ensure compatibility with used modules
+transformers==4.35.0  # For pipeline and HuggingFace integrations
+torch==2.0.1  # Specify version for GPU/CPU compatibility
+nltk==3.9.0  # Version with 'punkt' tokenizer
+faiss-cpu==1.7.4  # For FAISS vector store (use `faiss-gpu` if on GPU)
