@@ -16,8 +16,8 @@ A powerful Streamlit-based web application that processes news articles, generat
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/news-research-bot.git
-cd news-research-bot
+git clone https://github.com/Khizar246/LLM-Projects.git
+cd LLM-Projects
 
 ### 2. Set Up Virtual Environment (Optional)
 Create and activate a virtual environment to isolate dependencies:
@@ -26,7 +26,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 Install all required Python libraries:
 ```bash
 pip install -r requirements.txt
