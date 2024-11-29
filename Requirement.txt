@@ -5,3 +5,10 @@ transformers==4.35.0
 torch==2.0.1
 nltk==3.9.0
 faiss-cpu==1.7.4
+beautifulsoup4==4.12.2
+lxml==4.9.3
+Pillow==9.4.0
+cssselect==1.2.0
+PyYAML==6.0
+requests==2.31.0
+feedparser==6.0.10
