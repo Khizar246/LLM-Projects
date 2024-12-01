@@ -32,6 +32,32 @@ Install all required Python libraries:
 pip install -r requirements.txt
 ```
 
+# Streamlit for creating the user interface
+streamlit==1.25.0  # Latest stable version for compatibility
+
+# Newspaper3k for extracting article content
+newspaper3k==0.2.8  # Ensure compatibility with the code
+
+# LangChain dependencies for embeddings and vector stores
+langchain-community==0.0.5  # Include the latest compatible version for LangChain community modules
+langchain-huggingface==0.0.5  # For HuggingFace embedding models
+
+# FAISS for vector stores
+faiss-cpu==1.7.4  # CPU version of FAISS (change to faiss-gpu if GPU acceleration is needed)
+
+# Transformers for question-answering models
+transformers==4.35.0  # Latest stable version
+
+# PyTorch for deep learning backend
+torch==2.0.1+cu118  # Compatible with modern CUDA versions (adjust for specific GPU setup if needed)
+
+# NLTK for text processing
+nltk==3.10  # Include for handling text tokenization and splitting
+
+# Other necessary packages
+numpy==1.24.4  # FAISS and transformers rely on NumPy
+scipy==1.11.2  # Required for FAISS
+
 ---
 
 ## Usage
